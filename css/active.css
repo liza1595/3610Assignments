@@ -1,0 +1,50 @@
+body {
+	background: #CAA4EC;
+	color: #412912;
+}
+
+h1 {
+	text-align: center;
+	padding-top: 100px;
+}
+
+hr{
+	border-top: 3px dashed white;
+}
+
+h2{
+	text-align: center;
+}
+
+h3{
+	font-size: 40pt;
+}
+div{
+	display:grid;
+	grid-template-columns:1fr 1fr;
+	align-items: center;
+	justify-items:center;
+}
+
+p{
+	font-size: 20pt;
+	text-align: center;
+}
+
+h4{
+	font-size: 20pt;
+}
+li,h5 {
+	font-size: 16pt;
+}
+.center,video {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+table {
+	background: #F6D6F5;
+	border: 3px solid;
+	padding: 5px;
+	font-size: 16pt;
+}
