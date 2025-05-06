@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Interactive canvas with a form & audio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Interactive canvas with a form & audio</h1>
+  
+  <canvas id="scene" width="500" height="300"></canvas>
+
+  <div class="controls">
+    <!-- Background Selection -->
+    <div>
+      <label>Select Background:</label>
+      <label><input type="radio" name="background" value="1" checked> Day</label>
+      <label><input type="radio" name="background" value="2"> Green Forest</label>
+      <label><input type="radio" name="background" value="3"> Night</label>
+    </div>
+
+    <!-- Character Position Slider -->
+    <div class="control-vert">
+      <label for="positionSlider">Move red box (X-axis):</label>
+      <input type="range" id="positionSlider" min="0" max="400" value="200">
+    </div>
+
+    <!-- Item Visibility -->
+    <div class="control-vert">
+      <label><input type="checkbox" id="item1" checked> Show Item 1 (Sun)</label>
+      <label><input type="checkbox" id="item2" checked> Show Item 2 (Tree)</label>
+      <label><input type="checkbox" id="item3" checked> Show Item 3 (Moon)</label>
+    </div>
+
+    <!-- Sound Effects -->
+    <div class="control-vert">
+      <button onclick="playSound(1)">Play Ding Sound</button>
+      <button onclick="playSound(2)">Play Pop Sound</button>
+      <button onclick="playSound(3)">Play Swoosh Sound</button>
+    </div>
+  </div>
+
+  <!-- Audio -->
+  <audio id="sound1" src="sounds/ding.mp3" preload="auto"></audio>
+  <audio id="sound2" src="sounds/pop.mp3" preload="auto"></audio>
+  <audio id="sound3" src="sounds/swoosh.mp3" preload="auto"></audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
