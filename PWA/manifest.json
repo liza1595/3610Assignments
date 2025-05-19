@@ -1,0 +1,8 @@
+{
+  "name": "Dog Breeds Info",
+  "short_name": "DogInfo",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#4CAF50"
+}

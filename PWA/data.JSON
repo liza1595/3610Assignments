@@ -1,0 +1,19 @@
+{
+  "dogs": {
+    "labrador": {
+      "title": "Labrador Retriever",
+      "description": "Labradors are friendly, outgoing, and high-spirited companions.",
+      "image": "https://www.dogster.com/wp-content/uploads/2024/04/labrador-retriever-dog-standing-in-the-grass_Alexander-Rim_Shutterstock.jpg"
+    },
+    "beagle": {
+      "title": "Beagle",
+      "description": "Beagles are curious, friendly, and great with kids.",
+      "image": "https://www.bil-jac.com/wp-content/uploads/2024/12/beagle2-184102750.webp"
+    },
+    "corgi": {
+      "title": "Corgi",
+      "description": "Corgis are smart, courageous, and friendly. I own a corgi!",
+      "image": "https://www.dogster.com/wp-content/uploads/2024/03/tricolor-corgi-dog-standing-on-the-grass-field_SasaStock_shutterstock.jpg"
+    }
+  }
+}
