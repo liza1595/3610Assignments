@@ -2,6 +2,9 @@ fetch('data.json')
   .then(response => response.json())
   .then(data => {
     window.dogData = data.dogs;
+  })
+  .catch(err => {
+    console.error('Failed to load JSON', err);
   });
 
 function showInfo(breed) {
@@ -11,6 +14,6 @@ function showInfo(breed) {
     document.getElementById('description').textContent = dog.description;
     document.getElementById('image').src = dog.image;
   } else {
-    alert('Breed not found.');
+    alert(`Breed not found: ${breed}`);
   }
 }
